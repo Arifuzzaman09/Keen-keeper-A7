@@ -3,9 +3,9 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            Footer
+           This is footer section
         </div>
     );
 };
 
-export default Footer;
+export default Footer;Footer

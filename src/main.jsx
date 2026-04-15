@@ -4,6 +4,7 @@ import { createBrowserRouter } from 'react-router'
 import { RouterProvider } from 'react-router/dom'
 import RootLoyout from './Layout/RootLoyout'
 import "./index.css"
+import NotFound from './pages/Notfound/NotFound'
 const router = createBrowserRouter(
   [
     {
@@ -23,7 +24,7 @@ const router = createBrowserRouter(
         element: <h2>Stats</h2> 
       }
       ],
-      errorElement: <h2>This page is not found</h2>
+      errorElement: <NotFound></NotFound>
     }
   ]
 )
