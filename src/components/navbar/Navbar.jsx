@@ -3,6 +3,8 @@ import NabLogo from "../../assets/logo.png"
 import { IoMdHome } from 'react-icons/io';
 import { MdOutlineWatchLater } from 'react-icons/md';
 import { SiSimpleanalytics } from 'react-icons/si';
+import { NavLink } from 'react-router';
+
 
 const Navbar = () => {
     return (
@@ -14,9 +16,18 @@ const Navbar = () => {
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a> <IoMdHome /> Home</a></li>
-                        <li><a> <MdOutlineWatchLater />Timeline</a></li>
-                        <li><a> <SiSimpleanalytics />Stats</a></li>
+                        <li>
+                            <NavLink to={"/"}
+                                className={({ isActive }) => `font-semibold  ${isActive ? "bg-green-600 text-white" : ""}`}><IoMdHome /> Home</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={"/timeline"}
+                                className={({ isActive }) => `font-semibold  ${isActive ? "bg-green-600 text-white" : ""}`}><MdOutlineWatchLater /> Timeline</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={"/stats"}
+                                className={({ isActive }) => `font-semibold  ${isActive ? "bg-green-600 text-white" : ""}`}><SiSimpleanalytics  />Stats</NavLink>
+                        </li>
                     </ul>
                 </div>
             </div>
