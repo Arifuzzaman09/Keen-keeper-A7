@@ -1,0 +1,136 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "picture": "https://i.ibb.co.com/xSHTtrRQ/smiling-young-man-with-crossed-arms-outdoors.jpg",
+        "email": "john@example.com",
+        "days_since_contact": 12,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "close friend"
+        ],
+        "bio": "Met in university. Love hiking together.",
+        "goal": 14,
+        "next_due_date": "2025-07-20"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Khan",
+        "picture": "https://i.ibb.co.com/HDjm9P1L/female-model-black-oriental-hijab.jpg",
+        "email": "sarah@example.com",
+        "days_since_contact": 5,
+        "status": "upcoming",
+        "tags": [
+            "office",
+            "close friend"
+        ],
+        "bio": "Works in same team. Very helpful.",
+        "goal": 10,
+        "next_due_date": "2025-07-25"
+    },
+    {
+        "id": 3,
+        "name": "Michael Lee",
+        "picture": "https://i.ibb.co.com/8nsYJgy1/portrait-young-handsome-man-with-curly-hair.jpg",
+        "email": "michael@example.com",
+        "days_since_contact": 20,
+        "status": "overdue",
+        "tags": [
+           "college",
+            "close friend"
+        ],
+        "bio": "Workout partner at gym.",
+        "goal": 7,
+        "next_due_date": "2025-07-18"
+    },
+    {
+        "id": 4,
+        "name": "Ayesha Rahman",
+        "picture": "https://i.ibb.co.com/xqttBZD4/21201110.jpg",
+        "email": "ayesha@example.com",
+        "days_since_contact": 2,
+        "status": "active",
+        "tags": [
+             "office",
+            "friend"
+        ],
+        "bio": "Close cousin, talk regularly.",
+        "goal": 5,
+        "next_due_date": "2025-07-28"
+    },
+    {
+        "id": 5,
+        "name": "David Smith",
+        "picture": "https://i.ibb.co.com/sJjwtG9c/images.jpg",
+        "email": "david@example.com",
+        "days_since_contact": 15,
+        "status": "overdue",
+        "tags": [
+            "office",
+            "friend"
+        ],
+        "bio": "Important business client.",
+        "goal": 10,
+        "next_due_date": "2025-07-19"
+    },
+    {
+        "id": 6,
+        "name": "Nusrat Jahan",
+        "picture": "https://i.ibb.co.com/j91GNsjv/images-1.jpg",
+        "email": "nusrat@example.com",
+        "days_since_contact": 8,
+        "status": "upcoming",
+        "tags": [
+            "school",
+            "friend"
+        ],
+        "bio": "Old school friend.",
+        "goal": 14,
+        "next_due_date": "2025-07-23"
+    },
+    {
+        "id": 7,
+        "name": "Ali Hassan",
+        "picture": "https://i.ibb.co.com/5xfnmrMT/images-2.jpg",
+        "email": "ali@example.com",
+        "days_since_contact": 1,
+        "status": "active",
+        "tags": [
+            "close friend"
+        ],
+        "bio": "Lives next door.",
+        "goal": 3,
+        "next_due_date": "2025-07-30"
+    },
+    {
+        "id": 8,
+        "name": "Emma Watson",
+        "picture": "https://i.ibb.co.com/q3J0shKN/images-3.jpg",
+        "email": "emma@example.com",
+        "days_since_contact": 18,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "friend"
+        ],
+        "bio": "Worked together on projects.",
+        "goal": 12,
+        "next_due_date": "2025-07-17"
+    },
+    {
+        "id": 9,
+        "name": "Rafi Ahmed",
+        "picture": "https://i.ibb.co.com/5XLkzPtp/Ahmed-836x576.jpg",
+        "email": "rafi@example.com",
+        "days_since_contact": 6,
+        "status": "upcoming",
+        "tags": [
+           "office",
+            "college"
+        ],
+        "bio": "Met through online gaming.",
+        "goal": 7,
+        "next_due_date": "2025-07-24"
+    }
+]
