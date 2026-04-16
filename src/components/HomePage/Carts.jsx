@@ -28,4 +28,4 @@ const Carts = () => {
     );
 };
 
-export default Carts; <h3>Your Friends</h3>
+export default Carts; 
